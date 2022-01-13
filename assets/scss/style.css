@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #222;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .container {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background: #efefef;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  overflow: visible;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+body .container img {
+  width: 200px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+body .container:hover img {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+body .container .option {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+body .container .option .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+body .container .option .circle .inner-circle {
+  width: 5px;
+  height: 5px;
+  background: #0e0e0e;
+  border-radius: 50%;
+  margin: 0 1px;
+}
+
+body .container .option .circle-close {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+body .container .option .circle-close .inner-line {
+  color: #0e0e0e;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body .container .menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(110px, 15px);
+          transform: translate(110px, 15px);
+  width: 120px;
+  height: 120px;
+  background: #efefef;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+body .container .menu a {
+  background: #efefef;
+  color: #0e0e0e;
+  border: none;
+  text-align: left;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+body .container .menu a:hover {
+  color: #efefef;
+  background: #4285f4;
+}
+
+body .container .menu #delete {
+  color: crimson;
+}
+
+body .image-view {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+/*# sourceMappingURL=style.css.map */
